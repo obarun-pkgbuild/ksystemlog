@@ -4,7 +4,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=ksystemlog
-pkgver=17.12.0
+pkgver=17.12.1
 pkgrel=2
 pkgdesc='System log viewer tool'
 url='https://kde.org/applications/system/ksystemlog/'
@@ -16,7 +16,7 @@ makedepends=(extra-cmake-modules kdoctools python)
 conflicts=(kdeadmin-ksystemlog)
 replaces=(kdeadmin-ksystemlog)
 source=("https://download.kde.org/stable/applications/$pkgver/src/$pkgname-$pkgver.tar.xz")
-sha256sums=('a4c642ca44b2c1b4d4ee0b4c9df843ee350a6605aedcb528e469ce1e411c280a')
+sha256sums=('26de1a2bd64bf27ba8ad942befd8194c27ca356e8554cd0eb1737dc4babcc00d')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
 prepare() {
